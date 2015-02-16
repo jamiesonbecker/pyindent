@@ -13,10 +13,9 @@ It doesn't get much simpler:
         "tags": ["home", "blue"]
     }
     
-    print pyindent(pformat(product), indent=4, truncate=80)
-    
     # produces nicely indented output, with long lines truncated as needed.
     # handy for reading voluminous output from a data store
+    print pyindent(pformat(product), indent=4, truncate=80)
         {'id': 1,
          'name': 'A blue door This could be a really long line as well and it could opti
          'price': 12.5,
