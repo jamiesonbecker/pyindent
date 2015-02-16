@@ -17,13 +17,13 @@ It doesn't get much simpler:
     # handy for reading voluminous output from a data store
     print pyindent(pformat(product), indent=4, truncate=40)
         {'id': 1,
-         'name': 'A blue door This could be a re
+         'name': 'A blue door This could be a re ...
          'price': 12.5,
          'tags': ['home', 'blue']}
 
 
 
-Read all two lines of the source code to see what it does. ;)
+Read all two lines of the source code to see what it does.
 
 If you need something bigger, check out
 https://github.com/scottt/scottt-bin/blob/master/pyindent
