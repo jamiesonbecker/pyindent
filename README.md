@@ -16,6 +16,13 @@ It doesn't get much simpler:
     print pyindent(pformat(product), indent=4, truncate=80)
     
     # produces nicely indented output, with long lines truncated as needed.
+    # handy for reading voluminous output from a data store
+        {'id': 1,
+         'name': 'A blue door This could be a really long line as well and it could opti
+         'price': 12.5,
+         'tags': ['home', 'blue']}
+
+
 
 Read all two lines of the source code to see what it does. ;)
 
