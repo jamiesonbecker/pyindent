@@ -3,7 +3,7 @@ Super simple indent function for python that indents existing text
 
 It doesn't get much simpler:
 
-    from pyindent import indent
+    from pyindent import pyindent
     from pprint import pformat
     
     product = {
@@ -13,7 +13,7 @@ It doesn't get much simpler:
         "tags": ["home", "blue"]
     }
     
-    print indent(pformat(product), indent=4, truncate=80)
+    print pyindent(pformat(product), indent=4, truncate=80)
     
     # produces nicely indented output, with long lines truncated as needed.
 
