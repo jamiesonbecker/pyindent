@@ -1,6 +1,8 @@
 # pyindent
 Super simple indent function for python that indents existing text
 
+    pip install pyindent
+
 It doesn't get much simpler:
 
     from pyindent import pyindent
