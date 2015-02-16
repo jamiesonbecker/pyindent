@@ -17,3 +17,4 @@ It doesn't get much simpler:
     
     # produces nicely indented output, with long lines truncated as needed.
 
+Read all two lines of the source code to see what it does. ;)
