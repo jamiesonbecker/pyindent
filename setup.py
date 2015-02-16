@@ -37,7 +37,7 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Debugging',
+        'Topic :: Text Processing :: General',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
