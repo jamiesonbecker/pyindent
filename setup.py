@@ -20,6 +20,8 @@ setup(
     # The project's main homepage.
     url='https://github.com/jamiesonbecker/pyindent',
 
+    download_url="https://github.com/jamiesonbecker/pyindent/tarball/0.1",
+
     # Author details
     author='Jamieson Becker',
     author_email='pypi@jamiesonbecker.com',
