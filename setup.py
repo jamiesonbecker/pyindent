@@ -6,10 +6,6 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-# Get the long description from the relevant file
-with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
     name='PyIndent',
 
@@ -19,7 +15,7 @@ setup(
     version='0.1.0',
 
     description='A multi-line indenter',
-    long_description=long_description,
+    long_description='Pyindent is a super-simple multi-line indenting library for console output and debugging.',
 
     # The project's main homepage.
     url='https://github.com/jamiesonbecker/pyindent',
