@@ -5,6 +5,7 @@ Super simple indent function for python that indents existing text
 
 It doesn't get much simpler:
 
+~~~python
     from pyindent import pyindent
     from pprint import pformat
     
@@ -22,8 +23,7 @@ It doesn't get much simpler:
          'name': 'A blue door This could be a really long line as we
          'price': 12.5,
          'tags': ['home', 'blue']}
-
-
+~~~
 
 Read all two lines of the source code to see what it does.
 
