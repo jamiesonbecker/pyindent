@@ -1,1 +1,1 @@
-from pyindent import pyindent
+from pyindent import pyindent, pydedent

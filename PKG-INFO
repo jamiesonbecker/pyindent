@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pyindent
+Version: 0.1.0
+Summary: A multi-line indenter
+Home-page: https://github.com/jamiesonbecker/pyindent
+Author: Jamieson Becker
+Author-email: pypi@jamiesonbecker.com
+License: MIT
+Download-URL: https://github.com/jamiesonbecker/pyindent/tarball/0.1
+Description: Pyindent is a super-simple multi-line indenting library for console output and debugging.
+Keywords: indenting console development
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: General
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
