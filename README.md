@@ -6,7 +6,7 @@ Super simple indent function for python that indents existing text
 It doesn't get much simpler:
 
 ~~~python
-    from pyindent import pyindent
+    from pyindent import pyindent, pydedent
     from pprint import pformat
     
     product = {
