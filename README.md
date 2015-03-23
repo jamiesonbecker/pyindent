@@ -23,9 +23,12 @@ It doesn't get much simpler:
          'name': 'A blue door This could be a really long line as we
          'price': 12.5,
          'tags': ['home', 'blue']}
+
+    pydedent(pformat(product), amt=4, delim=" ") will have the opposite effect.
+
 ~~~
 
-Read all two lines of the source code to see what it does.
+Read all four lines of the source code to see what it does.
 
-If you need something bigger, check out
+If you need something fancier, check out
 https://github.com/scottt/scottt-bin/blob/master/pyindent
