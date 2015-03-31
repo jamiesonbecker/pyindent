@@ -3,7 +3,7 @@ Super simple indent function for python that indents existing text
 
     pip install pyindent
 
-It doesn't get much simpler:
+It doesn't get much simpler (see bottom for new features)
 
 ~~~python
     from pyindent import pyindent, pydedent
@@ -28,7 +28,9 @@ It doesn't get much simpler:
 
 ~~~
 
-Read all four lines of the source code to see what it does.
+NEW FEATURES
 
-If you need something fancier, check out
-https://github.com/scottt/scottt-bin/blob/master/pyindent
+-   optional `linestart=' * '` to start each line with  *  .
+-   optional `maxwidth=72` to wordwrap at 72 chars, 0 for no wrap.
+
+Read all four lines of the source code to see what it does.
